@@ -1,0 +1,103 @@
+.content {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 40px;
+  max-width: 768px;
+}
+
+.content img {
+  margin: 50px auto;
+  width: 80%;
+  display: block;
+}
+
+.btn-generate {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: none;
+  background: #c29a74;
+  border: none;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) { 
+  .btn-generate { 
+    width: 90%;
+    height: 50px;
+  }
+}
+
+#randomLyrics {
+  padding: 50px;
+  height: 100px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) { 
+  #randomLyrics { 
+    height: 150px;
+    padding: 40px;
+  }
+}
+
+.shareThis {
+  margin: 40px auto;
+}
+
+.shareThis a {
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; 
+}
+
+.shareThis div { 
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) { 
+  .shareThis a { 
+    display: block;
+    line-height: 40px;
+    margin: 20px;
+  }
+  .shareThis div { 
+    width: 100%;
+    display: block;
+  }
+}
+
+.shareThis a.twitter { 
+  background: #55acee;
+}
+
+.shareThis a.facebook { 
+  background: #3b5998; 
+}
+
+.shareThis a.whatsapp { 
+  background: #12af0a;
+}
+
+.disclaimer {
+  background: black;
+  opacity: .75;
+  padding: 15px;
+}
+
+.disclaimer small {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.disclaimer small a {
+  color: white;
+}
